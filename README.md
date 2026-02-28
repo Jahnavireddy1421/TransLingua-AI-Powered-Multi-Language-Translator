@@ -1,33 +1,39 @@
-# TransLingua-AI-Powered-Multi-Language-Translator
-Description:
-TransLingua is a language translation project developed to translate text from one language to another quickly and accurately.
-This system helps users overcome language barriers using automated translation technology.
+# intellisql: intelligent sql querying with llms using gemini pro
 
-Objective:
-* The main objective of this project is:
-* To provide fast and easy text translation
-* To support multiple languages
-* To build a simple and user-friendly interface
+IntelliSQL is a generative AI application that transforms natural language questions into executable SQL queries. Built for a virtual internship, it demonstrates the integration of LLMs with relational databases.
 
-Features:
-* Multi-language translation
-* Fast response
-* Simple and clean UI
-* Easy text input and output
+## 🚀 Features
+- **Natural Language Processing**: Convert plain English to SQL using Google Gemini.
+- **Interactive UI**: A multi-page Streamlit interface with Home, About, and Query pages.
+- **SQLite Integration**: Real-time data retrieval from a local database.
 
-Technologies Used:
-* Python
-* SQL
-* Translation API
-* JavaScript
+## 🛠️ Tech Stack
+- **Language**: Python
+- **AI Model**: Google Gemini 3 Flash
+- **Web Framework**: Streamlit
+- **Database**: SQLite3
 
-How to run the project:
-1. Install Python
-2. Install required libraries
-3. Run the main file(example: app.py)
-4. Open browser and use the application
+## 📋 Setup Instructions
+1. **Clone the repository**:
+   ```bash
+   https://github.com/Anjana-k-l/intellisql-intelligent-sql-querying-with-llms-using-gemini-pro.git
 
-Future Scope:
-* Add voice translation
-* Add more language support
-* Improve UI design
+pip install -r requirements.txt
+Set up environment variables: Create a .env file and add your Google API Key: GOOGLE_API_KEY=your_api_key_here
+
+
+Initialize the database:
+
+python sql.py
+
+
+Run the app:
+
+streamlit run app.py
+
+
+## 👨‍💻 Author
+- **Name**: MABBU JAHNAVI
+- **Role**: AI/Python Intern
+- **Project**: IntelliSQL (LLM-based SQL Generator)
+
